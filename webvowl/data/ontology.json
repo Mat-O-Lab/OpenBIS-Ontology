@@ -1,0 +1,624 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://w3id.org/matolab/openbis", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/ns/prov", "http://www.w3.org/2001/XMLSchema", "http://xmlns.com/foaf/0.1" ],
+    "title" : {
+      "en" : "Matolab OpenBIS Ontology (OpenBISOnt)"
+    },
+    "iri" : "http://w3id.org/matolab/openbis",
+    "version" : "1.0.0",
+    "author" : [ "Matolab OpenBISmatic Team" ],
+    "comments" : {
+      "en" : "This is a simple Ontology expaining the data model of OpenBIS."
+    },
+    "other" : {
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "http://creativecommons.org/licenses/by/4.0/",
+        "type" : "iri"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "Matolab OpenBISmatic Team",
+        "type" : "label"
+      } ],
+      "contributor" : [ {
+        "identifier" : "contributor",
+        "language" : "en",
+        "value" : "Mariam Rizkallah (Fraunhofer IFAM)",
+        "type" : "label"
+      }, {
+        "identifier" : "contributor",
+        "language" : "en",
+        "value" : "Rasmus Antons (Fraunhofer IWM)",
+        "type" : "label"
+      }, {
+        "identifier" : "contributor",
+        "language" : "en",
+        "value" : "Thomas Hanke (Fraunhofer IWM)",
+        "type" : "label"
+      }, {
+        "identifier" : "contributor",
+        "language" : "en",
+        "value" : "Andre Valdestilhas (Bundesanstalt für Materalprüfung und -forschung BAM)",
+        "type" : "label"
+      } ],
+      "created" : [ {
+        "identifier" : "created",
+        "language" : "undefined",
+        "value" : "2024-01-15",
+        "type" : "label"
+      } ],
+      "preferredNamespacePrefix" : [ {
+        "identifier" : "preferredNamespacePrefix",
+        "language" : "en",
+        "value" : "obis",
+        "type" : "label"
+      } ],
+      "preferredNamespaceUri" : [ {
+        "identifier" : "preferredNamespaceUri",
+        "language" : "undefined",
+        "value" : "http://w3id.org/matolab/openbis",
+        "type" : "label"
+      } ],
+      "bibliographicCitation" : [ {
+        "identifier" : "bibliographicCitation",
+        "language" : "undefined",
+        "value" : "obis: MatoLab openbis ontology. Version 1.0.0, http://w3id.org/matolab/ontology/",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "en",
+        "value" : "1.0.0",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "Matolab OpenBIS Ontology (OpenBISOnt)",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "4",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "6",
+    "type" : "owl:equivalentClass"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://w3id.org/matolab/openbis/User",
+    "equivalent" : [ "5", "6" ],
+    "baseIri" : "http://w3id.org/matolab/openbis",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "An named openBIS user.",
+        "type" : "label"
+      } ],
+      "openbis_json_key" : [ {
+        "identifier" : "openbis_json_key",
+        "language" : "undefined",
+        "value" : "as.dto.person.Person",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "User",
+      "undefined" : "User"
+    },
+    "attributes" : [ "equivalent", "external" ],
+    "id" : "4"
+  }, {
+    "iri" : "http://w3id.org/matolab/openbis/Space",
+    "baseIri" : "http://w3id.org/matolab/openbis",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "An OpenBIS Space.",
+        "type" : "label"
+      } ],
+      "openbis_json_key" : [ {
+        "identifier" : "openbis_json_key",
+        "language" : "undefined",
+        "value" : "as.dto.space.Space",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Space",
+      "undefined" : "Space"
+    },
+    "individuals" : [ {
+      "iri" : "http://w3id.org/matolab/openbis/Materials",
+      "baseIri" : "http://w3id.org/matolab/openbis",
+      "labels" : {
+        "IRI-based" : "Materials",
+        "undefined" : "Materials Space, a default OpenBIS space for material entities."
+      }
+    }, {
+      "iri" : "http://w3id.org/matolab/openbis/Methods",
+      "baseIri" : "http://w3id.org/matolab/openbis",
+      "labels" : {
+        "IRI-based" : "Methods",
+        "undefined" : "Methods Space, a default OpenBIS space for methods and proceedures."
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://w3id.org/matolab/openbis/Object",
+    "baseIri" : "http://w3id.org/matolab/openbis",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Sample",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "An OpenBIS entity of an object.",
+        "type" : "label"
+      } ],
+      "openbis_json_key" : [ {
+        "identifier" : "openbis_json_key",
+        "language" : "undefined",
+        "value" : "as.dto.sample.Sample",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Object",
+      "undefined" : "Object"
+    },
+    "attributes" : [ "external" ],
+    "id" : "16"
+  }, {
+    "iri" : "http://w3id.org/matolab/openbis/Collection",
+    "baseIri" : "http://w3id.org/matolab/openbis",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Experiment",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "An OpenBIS Collection of Objects and DataSets.",
+        "type" : "label"
+      } ],
+      "openbis_json_key" : [ {
+        "identifier" : "openbis_json_key",
+        "language" : "undefined",
+        "value" : "as.dto.experiment.Experiment",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Collection",
+      "undefined" : "Collection"
+    },
+    "individuals" : [ {
+      "iri" : "http://w3id.org/matolab/openbis/GeneralProtocols",
+      "baseIri" : "http://w3id.org/matolab/openbis",
+      "labels" : {
+        "IRI-based" : "GeneralProtocols",
+        "undefined" : "General Protocols Collection, a default OpenBIS collection to contain the lab proceedures generally used in the lab."
+      }
+    } ],
+    "subClasses" : [ "11" ],
+    "attributes" : [ "external" ],
+    "id" : "12"
+  }, {
+    "iri" : "http://w3id.org/matolab/openbis/DataSet",
+    "baseIri" : "http://w3id.org/matolab/openbis",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "An folder where data files are stored. A data set has user-defined properties.",
+        "type" : "label"
+      } ],
+      "openbis_json_key" : [ {
+        "identifier" : "openbis_json_key",
+        "language" : "undefined",
+        "value" : "as.dto.dataset.Dataset",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "DataSet",
+      "undefined" : "Data Set"
+    },
+    "attributes" : [ "external" ],
+    "id" : "11",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "8",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://w3id.org/matolab/openbis/PermanentIdentifier",
+    "baseIri" : "http://w3id.org/matolab/openbis",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "A additional String given by the OpenBIS data storage which will never be changed.",
+        "type" : "label"
+      } ],
+      "openbis_json_key" : [ {
+        "identifier" : "openbis_json_key",
+        "language" : "undefined",
+        "value" : "as.dto.person.id.PersonPermId",
+        "type" : "label"
+      }, {
+        "identifier" : "openbis_json_key",
+        "language" : "undefined",
+        "value" : "as.dto.sample.id.SamplePermId",
+        "type" : "label"
+      }, {
+        "identifier" : "openbis_json_key",
+        "language" : "undefined",
+        "value" : "as.dto.experiment.id.ExperimentPermId",
+        "type" : "label"
+      }, {
+        "identifier" : "openbis_json_key",
+        "language" : "undefined",
+        "value" : "as.dto.space.id.SpacePermId",
+        "type" : "label"
+      }, {
+        "identifier" : "openbis_json_key",
+        "language" : "undefined",
+        "value" : "as.dto.entitytype.id.EntityTypePermId",
+        "type" : "label"
+      }, {
+        "identifier" : "openbis_json_key",
+        "language" : "undefined",
+        "value" : "as.dto.project.id.ProjectPermId",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PermanentIdentifier",
+      "undefined" : "Permanent Identifier"
+    },
+    "attributes" : [ "external" ],
+    "id" : "14",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "1",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://w3id.org/matolab/openbis/Identifier",
+    "baseIri" : "http://w3id.org/matolab/openbis",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "A String as additional Identifier.",
+        "type" : "label"
+      } ],
+      "openbis_json_key" : [ {
+        "identifier" : "openbis_json_key",
+        "language" : "undefined",
+        "value" : "as.dto.project.id.ProjectIdentifier",
+        "type" : "label"
+      }, {
+        "identifier" : "openbis_json_key",
+        "language" : "undefined",
+        "value" : "as.dto.sample.id.SampleIdentifier",
+        "type" : "label"
+      }, {
+        "identifier" : "openbis_json_key",
+        "language" : "undefined",
+        "value" : "as.dto.experiment.id.ExperimentIdentifier",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Identifier",
+      "undefined" : "Identifier"
+    },
+    "subClasses" : [ "14" ],
+    "attributes" : [ "external" ],
+    "id" : "2"
+  }, {
+    "iri" : "http://w3id.org/matolab/openbis/Project",
+    "baseIri" : "http://w3id.org/matolab/openbis",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "An OpenBIS Project.",
+        "type" : "label"
+      } ],
+      "openbis_json_key" : [ {
+        "identifier" : "openbis_json_key",
+        "language" : "undefined",
+        "value" : "as.dto.project.Project",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Project",
+      "undefined" : "Project"
+    },
+    "individuals" : [ {
+      "iri" : "http://w3id.org/matolab/openbis/Protocols",
+      "baseIri" : "http://w3id.org/matolab/openbis",
+      "labels" : {
+        "IRI-based" : "Protocols",
+        "undefined" : "Protocols Project, a default OpenBIS project for proceedures."
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#Agent",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Agent"
+    },
+    "attributes" : [ "equivalent", "external" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/Person",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Person"
+    },
+    "attributes" : [ "equivalent", "external" ],
+    "id" : "6"
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "7",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "10",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "13",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "3",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "17",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "18",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "9",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "19",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://w3id.org/matolab/openbis/has_tag",
+    "inverse" : "3",
+    "baseIri" : "http://w3id.org/matolab/openbis",
+    "range" : "2",
+    "annotations" : {
+      "openbis_json_key" : [ {
+        "identifier" : "openbis_json_key",
+        "language" : "undefined",
+        "value" : "tags",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "has_tag",
+      "en" : "has tag"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://w3id.org/matolab/openbis/has_parent",
+    "inverse" : "9",
+    "baseIri" : "http://w3id.org/matolab/openbis",
+    "range" : "8",
+    "annotations" : {
+      "openbis_json_key" : [ {
+        "identifier" : "openbis_json_key",
+        "language" : "undefined",
+        "value" : "parents",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "has_parent",
+      "en" : "has parent"
+    },
+    "domain" : "8",
+    "attributes" : [ "object", "external" ],
+    "id" : "7"
+  }, {
+    "range" : "12",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "10"
+  }, {
+    "range" : "2",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://w3id.org/matolab/openbis/is_tag_of",
+    "baseIri" : "http://w3id.org/matolab/openbis",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "is_tag_of",
+      "en" : "is tag of"
+    },
+    "domain" : "2",
+    "attributes" : [ "object", "external" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://w3id.org/matolab/openbis/relates_to",
+    "baseIri" : "http://w3id.org/matolab/openbis",
+    "range" : "8",
+    "annotations" : {
+      "openbis_json_key" : [ {
+        "identifier" : "openbis_json_key",
+        "language" : "undefined",
+        "value" : "projects",
+        "type" : "label"
+      }, {
+        "identifier" : "openbis_json_key",
+        "language" : "undefined",
+        "value" : "components",
+        "type" : "label"
+      }, {
+        "identifier" : "openbis_json_key",
+        "language" : "undefined",
+        "value" : "project",
+        "type" : "label"
+      }, {
+        "identifier" : "openbis_json_key",
+        "language" : "undefined",
+        "value" : "experiment",
+        "type" : "label"
+      }, {
+        "identifier" : "openbis_json_key",
+        "language" : "undefined",
+        "value" : "samples",
+        "type" : "label"
+      }, {
+        "identifier" : "openbis_json_key",
+        "language" : "undefined",
+        "value" : "space",
+        "type" : "label"
+      }, {
+        "identifier" : "openbis_json_key",
+        "language" : "undefined",
+        "value" : "dataSets",
+        "type" : "label"
+      }, {
+        "identifier" : "openbis_json_key",
+        "language" : "undefined",
+        "value" : "experiments",
+        "type" : "label"
+      }, {
+        "identifier" : "openbis_json_key",
+        "language" : "undefined",
+        "value" : "attachments",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "relates_to",
+      "en" : "is child of"
+    },
+    "domain" : "8",
+    "attributes" : [ "object", "external" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://w3id.org/matolab/openbis/has_identifier",
+    "inverse" : "19",
+    "baseIri" : "http://w3id.org/matolab/openbis",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "has_identifier",
+      "en" : "has identifier"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external" ],
+    "id" : "18"
+  }, {
+    "iri" : "http://w3id.org/matolab/openbis/has_child",
+    "baseIri" : "http://w3id.org/matolab/openbis",
+    "range" : "8",
+    "annotations" : {
+      "openbis_json_key" : [ {
+        "identifier" : "openbis_json_key",
+        "language" : "undefined",
+        "value" : "children",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "has_child",
+      "en" : "has_child"
+    },
+    "domain" : "8",
+    "attributes" : [ "object", "external" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://w3id.org/matolab/openbis/is_identifier_of",
+    "baseIri" : "http://w3id.org/matolab/openbis",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "is_identifier_of",
+      "en" : "is identifier of"
+    },
+    "domain" : "2",
+    "attributes" : [ "object", "external" ],
+    "id" : "19"
+  } ]
+}
