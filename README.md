@@ -109,9 +109,3 @@ For questions, bug reports, or further discussions, please open an issue on GitH
 
 - [openBIS](https://openbis.ch/) for the inspiration behind the data management efforts.
 - All contributors and the open-source community for their valuable input and collaboration.
-
-```
-
----
-
-This README provides a clear overview of the project, includes step-by-step instructions for installation and usage, as well as guidelines for contributing and testing. Feel free to modify any sections to better reflect any future changes or additional features in your repository.
