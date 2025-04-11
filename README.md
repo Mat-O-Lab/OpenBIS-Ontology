@@ -5,6 +5,10 @@
 
 OpenBIS-Ontology is a small yet powerful ontology designed to semantically model data from the [openBIS](https://openbis.ch/) system. In addition to the ontology specification, the repository includes a Python-based parser that converts JSON output from the openBIS API into semantic data (e.g., RDF) ready for further integration or querying.
 
+## Ontology Documentation
+The automatically generated Ontology documentation by PyLODE is available here:
+[![Ontology Documentation](https://img.shields.io/badge/PyLODE-OpenBIS-blue.svg)](https://mat-o-lab.github.io/OpenBIS-Ontology/) 
+
 ## Overview
 
 Many research groups and laboratories use openBIS for managing complex datasets. However, bridging the gap between raw API outputs and semantic technologies (like linked data and RDF) can be challenging. **OpenBIS-Ontology** addresses this by:
